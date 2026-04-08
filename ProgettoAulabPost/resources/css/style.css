@@ -1,0 +1,179 @@
+
+.box1{
+    height: 350px;
+    width: 300px;
+    color: white;
+    background: linear-gradient(rgba(20, 20, 20, 1), rgba(20, 20, 20, 0.4), rgba(20, 20, 20, 1)), url();
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.img-fluid{
+    height: 250px;
+    width: 200px;
+}
+
+.text-link{
+    text-decoration: underline;
+    color: white;
+}
+
+.bg-gratt{
+    background: linear-gradient(rgba(20, 20, 20, 0.9), rgba(20, 20, 20, 0.2), rgba(20, 20, 20, 0.9)), url(/storage/app/public/images/grattacielo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 500px;
+}
+
+.bg-perso{
+    background-color: #142740;
+}
+
+.navbar{
+    min-height: 70px;
+}
+
+.t-blue{
+    color: #142740;
+}
+
+.mt-scritte{
+    margin-top: 190px;
+}
+
+.register{
+    text-decoration: underline;
+}
+
+#logo{
+    height: 35px;
+}
+
+.show-img{
+    height: 450px;
+    width: 100%;
+}
+
+/* chi siamo */
+
+#circle{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    border: 2px dashed #142740;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+#opener{
+    height: 130px;
+    width: 130px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: 0.5s;
+    position: absolute;
+    z-index: 10;
+    background-color: #142740;
+}
+
+.moved{
+    height: 130px;
+    width: 130px;
+    border: 4px solid #142740;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: 0.5s;
+    position: absolute;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+@media screen and (max-width: 600px) {
+    .ann-card{
+        width: 100%;
+        margin-top: 10px;
+    }
+}
+
+.margineChiSiamo{
+    margin-top: 130px;
+    margin-bottom: 100px;
+}
+
+#quattroCard{
+    border: 4px solid #142740;
+}
+
+#cardImg{
+    height: 300px;
+}
+
+.d-min{
+    height: 30px;
+}
+
+.logo-nav{
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    transform: translate(-50%, -0%);
+} 
+
+@media screen and (max-width: 760px){
+    .logo-nav{
+        left: 90%;
+    }
+}
+
+.fab{
+    width: 15px;
+}
+
+.imgFooter{
+    height: 100px;
+    width: 170px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.btnRole{
+    width: 200px;
+}
+
+.btn-perso{
+    background-color: #142740;
+    color: white;
+    border: 2px solid #142740;
+}
+
+.btn-perso:hover{
+    background-color: transparent;
+    color:#142740;
+    border: 2px solid #142740;
+}
+
+.btn-perso2{
+    background-color: #142740;
+    color: white;
+    border: 2px solid #142740;
+}
+
+.btn-perso2:hover{
+    background-color: transparent;
+    color:white;
+    border: 2px solid #142740;
+}
+
+.bg-search{
+    background-color: #CED4DA;
+}
+
+.btnMy{
+    width: 100px;
+}
